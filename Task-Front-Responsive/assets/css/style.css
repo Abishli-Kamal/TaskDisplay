@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header .info{
+    width: 35%;
+    margin-left: 10%;
+}
+
+.header .info h2{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header .info p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15%;
+}
+.header .info span{
+    font-size: 45px;
+
+}
+
+.col-6 {
+  display: flex;
+  margin-top: 20px;
+}
+.col-6 .info  p{
+  width: 91%;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+.col-6 .info {
+  margin-left: 8%;
+}
+.example strong a {
+  text-decoration: none;
+  color: rgb(65, 62, 62);
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+.example {
+  margin-top: 27%;
+}
+.row {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-top: 6%;
+}
+@media screen and (max-width: 768px) {
+  .col-6 {
+    width: 100%;
+}
+}
